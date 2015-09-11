@@ -30,8 +30,12 @@ TARGET_USE_KRAIT_PLD_SET := true
 TARGET_KERNEL_CONFIG := ninja_defconfig
 TARGET_KERNEL_SOURCE := kernel/motorola/shamu
 BOARD_KERNEL_IMAGE_NAME := zImage-dtb
-KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/linux-x86/arm/sabermod-arm-linux-gnueabi-5.1/bin
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/linux-x86/arm/arm-linux-gnueabi-5.2/bin
 KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
+
+#Optimize some mo'
+LTO := true
+A15_QUAD := true
 
 BOARD_KERNEL_BASE := 0x00000000
 BOARD_KERNEL_PAGESIZE :=  2048
