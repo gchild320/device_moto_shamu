@@ -3,7 +3,7 @@
     "remote": "github",
     "repository": "gchild320/shamu",
     "target_path": "kernel/motorola/shamu",
-    "branch": "lp5.1"
+    "branch": "m6.0"
   },
   {
     "remote": "github",
