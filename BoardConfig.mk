@@ -30,7 +30,7 @@ TARGET_USE_KRAIT_PLD_SET := true
 TARGET_KERNEL_CONFIG := ninja_defconfig
 TARGET_KERNEL_SOURCE := kernel/motorola/shamu
 BOARD_KERNEL_IMAGE_NAME := zImage-dtb
-KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/linux-x86/arm/arm-linux-gnueabi-5.2/bin
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/linux-x86/arm/linaro-lto/bin
 KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
 
 #Optimize some mo'
